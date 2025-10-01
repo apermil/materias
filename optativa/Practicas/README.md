@@ -1,6 +1,5 @@
 # Optativa 2º SMR
-## IES Mario López 
-### Repositorio de prácticas
+## Relación de ejercicios a entregar
 ### Practica 1 Introducción al lenguaje html
 
     Ejercicio 1: Tu perfil
