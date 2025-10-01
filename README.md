@@ -1,2 +1,3 @@
-# proyectoIntegrado
-Sitio web donde iremos desarrollando el proyecto integrado de smr
+## Sitio web con material para  los módulos optativos de SMR y proyecto integrado
+### CFGM Sistemas Microinformáticos y Redes
+#### IES Mario López -Bujalance-
