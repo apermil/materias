@@ -1,3 +1,9 @@
-## Sitio web con material para  los módulos optativos de SMR y proyecto integrado
-### CFGM Sistemas Microinformáticos y Redes
-#### IES Mario López -Bujalance-
+## Materiales para mi docencia
+
+>Prof. Antonio J. Pérez Millán<br/>Dpto. Informática IES Mario López<br/>Bujalance Córdob
+-----
+
+## CFGM Sistemas Microinformáticos y Redes<br/>TIC II Bachillerato<br/>TIC I Bachillerato<br/>
+ 
+
+
