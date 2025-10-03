@@ -1,8 +1,9 @@
-## Sitio web con material para mi alumnado
- Prof. Antonio J. Pérez Millán
- 
- Dpto. Informática IES Mario López
+## Materiales para mi docencia
+
+>Prof. Antonio J. Pérez Millán<br/>Dpto. Informática IES Mario López<br/>Bujalance Córdob
 -----
-### CFGM Sistemas Microinformáticos y Redes
-### TIC II Bachillerato
-#### IES Mario López -Bujalance-
+
+## CFGM Sistemas Microinformáticos y Redes<br/>TIC II Bachillerato<br/>TIC I Bachillerato<br/>
+ 
+
+
