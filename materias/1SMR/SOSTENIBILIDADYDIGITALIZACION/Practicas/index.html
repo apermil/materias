@@ -10,86 +10,12 @@
         /* 1. Estilos Base del Cuerpo de la Web */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5; /* Fondo gris claro */
+            background-color:aliceblue; /* Fondo gris claro */
             margin: 0;
             padding: 20px;
         }
         
-        /* 2. El Contenedor de la Parrilla (CLAVE: display: grid) */
-        .grid-container {
-            display: grid; /* Paso clave: Activa el sistema de cuadrícula */
-            gap: 20px; /* Espacio entre los enlaces cuadrados */
-            max-width: 1000px; /* Limita el ancho central */
-            margin: 40px auto; /* Centra el contenedor en la pantalla */
-            padding: 0 10px;
-            
-            /* RESPONSIVIDAD 1: Móvil (1 columna) */
-            grid-template-columns: 1fr; 
-        }
-
-        /* 3. RESPONSIVIDAD 2: Pantallas Medianas (A partir de 500px, 2 columnas) */
-        @media (min-width: 500px) {
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* 4. RESPONSIVIDAD 3: Pantallas Grandes (A partir de 768px, 3 columnas) */
-        @media (min-width: 768px) {
-            .grid-container {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        /* 5. Estilo del Enlace Cuadrado (CLAVE: aspect-ratio) */
-        .enlace-cuadrado {
-            text-decoration: none; /* Quita el subrayado de los enlaces */
-            color: #ffffff; /* Color de texto blanco por defecto */
-            
-            /* Paso CLAVE: Esto lo fuerza a ser un CUADRADO (Ancho = Alto) */
-            aspect-ratio: 1 / 1;
-            
-            /* Centrar el contenido: Usamos Flexbox dentro de cada cuadrado */
-            display: flex;
-            flex-direction: column;
-            justify-content: center; /* Centra el contenido verticalmente */
-            align-items: center; /* Centra el contenido horizontalmente */
-            text-align: center;
-            
-            padding: 20px;
-            border-radius: 12px; /* Esquinas redondeadas */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-            transition: transform 0.2s; /* Hace el efecto de hover más suave */
-        }
-        
-        /* 6. Efecto al pasar el ratón (Hover) */
-        .enlace-cuadrado:hover {
-            transform: scale(1.05); /* Se agranda un 5% al pasar el ratón */
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Sombra más visible */
-        }
-        
-        /* 7. Estilo del Contenido (Icono y Texto) */
-        .enlace-cuadrado .icono {
-            font-size: 3em; /* Tamaño del emoji/icono */
-            margin-bottom: 5px;
-        }
-
-        .enlace-cuadrado .titulo {
-            font-size: 1.25em; 
-            font-weight: bold;
-            margin-bottom: 2px;
-        }
-
-        .enlace-cuadrado .descripcion {
-            font-size: 0.85em; 
-            opacity: 0.9;
-        }
-
-        /* 8. Clases de Colores Simples */
-        .color-azul { background-color: #3b82f6; }
-        .color-verde { background-color: #10b981; }
-        .color-purpura { background-color: #8b5cf6; }
-        .color-naranja { background-color: #f97316; }
+     
 
     </style>
 </head>
@@ -97,37 +23,18 @@
 
     <header class="text-center py-8">
         <h1 class="text-3xl font-bold text-gray-800">Portfolio Sostenibilidad</h1>
-        <p class="text-gray-600 mt-2">Haz clic en</p>
+        <hr>
+        
     </header>
 
-    <section class="grid-container">
+    <section>
 
         <!-- APARTADO 1: INICIO (Clase: color-azul) -->
-        <a href="#inicio" class="enlace-cuadrado color-azul">
-            <span class="icono">🏠</span>
-            <span class="titulo">Página de Inicio</span>
-            <span class="descripcion">Aquí encontrarás todas las novedades.</span>
+        <a href="Practica1/Ejercicio1.html">
+            Actividad 1            
         </a>
-
-        <!-- APARTADO 2: PRODUCTOS (Clase: color-verde) -->
-        <a href="#productos" class="enlace-cuadrado color-verde">
-            <span class="icono">📦</span>
-            <span class="titulo">Ver Productos</span>
-            <span class="descripcion">Explora nuestro catálogo completo.</span>
-        </a>
-
-        <!-- APARTADO 3: SERVICIOS (Clase: color-purpura) -->
-        <a href="#servicios" class="enlace-cuadrado color-purpura">
-            <span class="icono">🛠️</span>
-            <span class="titulo">Nuestros Servicios</span>
-            <span class="descripcion">Soluciones personalizadas.</span>
-        </a>
-
-        <!-- APARTADO 4: CONTACTO (Clase: color-naranja) -->
-        <a href="#contacto" class="enlace-cuadrado color-naranja">
-            <span class="icono">📧</span>
-            <span class="titulo">Contacto y Soporte</span>
-            <span class="descripcion">Envíanos tu consulta.</span>
+        <a href="#inicio">
+            Actividad 2           
         </a>
 
     </section>
