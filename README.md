@@ -1,4 +1,4 @@
-## Materiales para mi docencia
+## Materiales para los alumnos/as
 
 >Prof. Antonio J. Pérez Millán<br/>Dpto. Informática IES Mario López<br/>Bujalance Córdob
 -----
