@@ -1,0 +1,73 @@
+        /* 1. Estilos Base del Cuerpo de la Web */
+        body {
+            font-family: Arial, sans-serif;
+            background-color:aliceblue; /* Fondo gris claro */
+            margin: 0;
+            
+        }
+        header {
+            background-color:aquamarine;
+            background-image: url('https://artesaniachopo.com/wp-content/uploads/2021/09/texture-ga8f10a658_1920-800x469.jpg');
+            background-size: cover;
+            color: white;
+            height: 100px
+        }   
+        
+        header h1 {
+            font-size: 20px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+.parrafo {
+    margin: 10px;
+    padding: 15px;
+    background-color: aliceblue;
+    font-family: arial;
+    font-size: 12px;
+    border-style: dashed;
+    border-color: antiquewhite;
+}
+
+.titulo {
+    background-color: lightcoral;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+/* Estilos para el contenedor */
+.contenedor-imagen-texto {
+    /* **La clave: Flexbox** activa la alineaci��n en una fila */
+    display: flex; 
+    
+    /* Centra verticalmente la imagen y el texto dentro del contenedor */
+    align-items: center; 
+    
+    /* A?ade un poco de espacio alrededor (opcional) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 600px; /* Limita el ancho del contenido (opcional) */
+}
+
+/* Estilos para la imagen */
+.contenedor-imagen-texto img {
+    /* Define un tama?o fijo para la imagen */
+    width: 150px; 
+    height: auto; /* Mantiene la proporci��n */
+    
+    /* A?ade espacio a la derecha para separarla del texto */
+    margin-right: 20px; 
+}
+
+/* Estilos para el texto (opcional) */
+.contenedor-imagen-texto p {
+    /* Asegura que el texto use el espacio restante */
+    flex-grow: 1; 
+    line-height: 1.6; /* Mejora la legibilidad */
+}
